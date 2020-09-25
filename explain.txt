@@ -1,0 +1,25 @@
+*) create new app in heroku.com
+
+*) heroku login 
+in cmd of same directory in VSCODE
+
+*)D:\GITHUB_REPO_donot_add_delete\testheroku>
+this above test repository I have create d in github so I'm logging
+in same directory
+
+*) run this command in VSCODE
+for this command to run you need to install git not 
+(GITHUB DESKTOP)
+
+>>heroku git:remote -a testing-for
+here testing-for is app name I have created in heroku.com
+
+
+*) pip freeze > requirements.txt
+With this it will collect librarries you have used for this project. Which wil be installed
+in heroku
+
+*) cretae runtime.txt and save "Python-3.7.9"
+
+*) create Procfile  
+https://devcenter.heroku.com/articles/django-app-configuration
