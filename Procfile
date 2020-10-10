@@ -1,1 +1,1 @@
-web: gunicorn forherokutest
+web: gunicorn forherokutest.wsgi
